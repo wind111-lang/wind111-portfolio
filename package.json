@@ -51,9 +51,11 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/react-mdl": "^1.7.31",
+    "@types/react-router-dom": "^5.3.3",
     "@types/react-scroll": "^1.8.4",
     "fontsource-noto-sans-jp": "^4.0.0",
     "react-mdl": "^2.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scroll": "^1.8.7",
     "ts-loader": "^9.3.1",
     "typescript": "^4.7.4"
