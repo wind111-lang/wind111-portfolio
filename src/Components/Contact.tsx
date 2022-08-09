@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         <>
             <Box sx={{display:"flex",justifyContent:"center"}}>
                 <Typography variant="h4" sx={{textAlign:"center", fontSize: "24px", marginTop:"80px"}}>
-                    Contact
+                    Contact me
                 </Typography>
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center" }}>
