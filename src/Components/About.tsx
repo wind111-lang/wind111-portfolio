@@ -11,7 +11,7 @@ const About: React.FC = () => {
                 </Typography >
                 <Box sx={{ marginTop: "78px", marginLeft:'70px', justifyContent:'center', display:'flex'}}>
                     <Typography variant="body1" sx={{ fontSize: '18px', width:'100%'}}>
-                        Job: University Student
+                        Job: University Student<br />
                         Birthday: June 28th, 2001<br />
                         Origin: Aichi, Japan<br />
                         Hobbies: Coding, Listen to music, Drink alcohol, Play video games<br />
