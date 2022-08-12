@@ -1,28 +1,26 @@
 import React from 'react';
-import { Box, Avatar, Typography} from '@mui/material'
+import {Typography, Box, Grid} from '@mui/material';
 
-import Image from "./me.jpg"
+const About: React.FC = () => {
 
-const About: React.FC = () =>{
-    return (
-        <>
-            <Typography variant="h4" sx={{textAlign:"center", marginTop:"30px"}}>
+        return (
+            <>
+            <Box sx={{ display: "flex", justifyContent: "center" }}>
+                <Typography variant="h4" sx={{textAlign:"center", marginTop:"70px"}}>
                     About me
-                </Typography>
-            <Box sx={{display:"flex",justifyContent:"center"}}>
-                <Avatar
-                    alt="Tsutsui Shota" src={Image}
-                    style={{ width: "300px", height: "300px", top: "50px", right: "90px", margin: "20px" }}
-                />
-                <Typography sx={{ fontSize: '48px', textAlign: "center", marginTop: "160px", marginLeft:"20px"}}>
-                    Tsutsui Shota
-                    <Typography sx={{fontSize: '28px', textAlign:"center", marginRight:"0px"}}>
-                    University Student
+                </Typography >
+                <Box sx={{ marginTop: "78px", marginLeft:'70px', justifyContent:'center', display:'flex'}}>
+                    <Typography variant="body1" sx={{ fontSize: '18px', width:'100%'}}>
+                        Job: University Student
+                        Birthday: June 28th, 2001<br />
+                        Origin: Aichi, Japan<br />
+                        Hobbies: Coding, Listen to music, Drink alcohol, Play video games<br />
+                        Speaks: Japanese, English(US)<br />
                     </Typography>
-                </Typography>
+                </Box>
             </Box>
-        </>
-    );
+            </>
+        )
 }
 
 export default About;

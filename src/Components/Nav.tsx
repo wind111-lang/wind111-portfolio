@@ -2,13 +2,15 @@ import React from 'react';
 import { AppBar, Toolbar, Button } from '@mui/material';
 
 interface NavProps {
+    profile: any;
     about: any;
     skill: any;
     product: any;
     contact: any;
 }
 
-const Nav: React.FC<NavProps> = ({about,skill,product,contact}) => {
+const Nav: React.FC<NavProps> = ({ profile, about, skill, product, contact }) => {
+    const profileScroll = () =>profile.current.scrollIntoView({ behavior: 'smooth' });
     const aboutScroll = () => about.current.scrollIntoView({ behavior: 'smooth' });
     const skillScroll = () => skill.current.scrollIntoView({ behavior: 'smooth' });
     const productScroll = () => product.current.scrollIntoView({ behavior: 'smooth' });
@@ -25,7 +27,10 @@ const Nav: React.FC<NavProps> = ({about,skill,product,contact}) => {
 
                 }}
             >
-            <Toolbar>
+                <Toolbar>
+                <Button color='inherit' onClick={profileScroll}>
+                    Profile
+                </Button>
                 <Button color='inherit' onClick={aboutScroll}>
                     About me
                 </Button>
