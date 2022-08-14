@@ -9,12 +9,13 @@ const About: React.FC = () => {
                 <Typography variant="h4" sx={{textAlign:"center", marginTop:"70px"}}>
                     About me
                 </Typography >
-                <Box sx={{ marginTop: "78px", marginLeft:'70px', justifyContent:'center', display:'flex'}}>
-                    <Typography variant="body1" sx={{ fontSize: '18px', width:'100%'}}>
+                <Box sx={{ marginTop: "78px", marginLeft:'120px', justifyContent:'center', display:'flex'}}>
+                    <Typography variant="body1" sx={{ fontSize: '16px', width:'100%'}}>
                         Job: University Student<br />
                         Birthday: June 28th, 2001<br />
                         Origin: Aichi, Japan<br />
                         Hobbies: Coding, Listen to music, Drink alcohol, Play video games<br />
+                        Licenses: Hazardous Materials Engineer's Class B Group 4<br />    
                         Speaks: Japanese, English(US)<br />
                     </Typography>
                 </Box>
