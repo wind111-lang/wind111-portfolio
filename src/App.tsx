@@ -18,7 +18,7 @@ const App: React.FC = () => {
 
         return (
             <>
-            <MediaQuery maxWidth={400}>
+            <MediaQuery query="(max-width: 400px)">
                 <section>
                     <Nav profile={profile} about={about} skill={skill} product={product} contact={contact} />
                 </section>
@@ -37,8 +37,8 @@ const App: React.FC = () => {
                 <section ref={contact}>
                     <Contact />
                     </section>
-                </MediaQuery>
-                <MediaQuery minWidth={401}>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 401px)">
                 <section>
                     <Nav profile={profile} about={about} skill={skill} product={product} contact={contact} />
                 </section>
