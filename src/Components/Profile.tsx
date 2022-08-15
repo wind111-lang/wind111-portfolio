@@ -10,9 +10,9 @@ const Profile: React.FC = () =>{
                 <MediaQuery query='(max-width:400px)'>
                     <Avatar
                         alt="Tsutsui Shota" src={Image}
-                        style={{ width: "150px", height: "150px", top: "50px", right: "25px", margin: "20px" }}
+                        style={{ width: "150px", height: "150px", top: "50px", right: "20px", margin: "20px" }}
                     />
-                    <Typography sx={{ fontSize: '28px', textAlign: "center", marginTop: "135px", marginLeft:"20px"}}>
+                    <Typography sx={{ fontSize: '28px', textAlign: "center", marginTop: "120px", marginLeft:"20px"}}>
                         Tsutsui Shota
                     <Typography sx={{fontSize: '18px', textAlign:"center", marginRight:"0px"}}>
                         University Student
