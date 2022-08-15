@@ -10,7 +10,7 @@ const Profile: React.FC = () =>{
                 <MediaQuery query='(max-width:400px)'>
                     <Avatar
                         alt="Tsutsui Shota" src={Image}
-                        style={{ width: "150px", height: "150px", top: "50px", right: "60px", margin: "20px" }}
+                        style={{ width: "150px", height: "150px", top: "75px", right: "40px", margin: "20px" }}
                     />
                     <Typography sx={{ fontSize: '28px', textAlign: "center", marginTop: "160px", marginLeft:"20px"}}>
                         Tsutsui Shota
@@ -22,7 +22,7 @@ const Profile: React.FC = () =>{
                 <MediaQuery query='(min-width:401px)'>
                     <Avatar
                         alt="Tsutsui Shota" src={Image}
-                        style={{ width: "300px", height: "300px", top: "50px", right: "60px", margin: "20px" }}
+                        style={{ width: "300px", height: "300px", top: "60px", right: "60px", margin: "20px" }}
                     />
                     <Typography sx={{ fontSize: '48px', textAlign: "center", marginTop: "160px", marginLeft:"20px"}}>
                         Tsutsui Shota
