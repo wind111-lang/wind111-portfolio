@@ -6,14 +6,14 @@ const Skill: React.FC = () => {
 const skills = ['C','Python','Java','Go','Gin','Gorm','Unity','Docker','Git','MariaDB']
         return (
             <>
-                <Grid container spacing={2}>
+                <Grid container>
                     <Grid item xs={12} md={6} lg={6} direction="row">
                         <Box sx={{ textAlign: 'center'}}>
                             <Typography variant="h4" sx={{marginTop:'30px'}}>
                                 Skills
                             </Typography>
                             {skills.map((skill) =>
-                                <Grid item direction="row" xs={4} sx={{ margin: 'auto' }}>
+                                <Grid item direction="row" xs={3} sx={{ margin: 'auto'}}>
                                     <Card sx={{ margin: '0.7em', fontSize:"16px"}}>
                                         {skill}
                                     </Card>
@@ -21,8 +21,8 @@ const skills = ['C','Python','Java','Go','Gin','Gorm','Unity','Docker','Git','Ma
                             )}
                         </Box>
                     </Grid>
-                    <Grid item xs={12} md={6} lg={6}>
-                        <Box component='img' alt='skill' src={Image} sx={{width:'520px', height:'520px'}}></Box>
+                    <Grid item xs={12} md={6}>
+                        <Box component='img' alt='skill' src={Image} sx={{ width: '450px', height: '450px'}}></Box>
                     </Grid>
                 </Grid>
             </>
