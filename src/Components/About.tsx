@@ -5,11 +5,11 @@ const About: React.FC = () => {
 
         return (
             <>
-            <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Box sx={{ display: "flex", justifyContent: "center", margin:'auto' }}>
                 <Typography variant="h4" sx={{textAlign:"center", marginTop:"70px"}}>
                     About me
                 </Typography >
-                <Box sx={{ marginTop: "78px", marginLeft:'120px', justifyContent:'center', display:'flex'}}>
+                <Box sx={{ marginTop: "78px", marginLeft:'130px', justifyContent:'center', display:'flex'}}>
                     <Typography variant="body1" sx={{ fontSize: '16px', width:'100%'}}>
                         Job: University Student<br />
                         Birthday: June 28th, 2001<br />
