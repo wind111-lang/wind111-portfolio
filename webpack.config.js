@@ -1,14 +1,17 @@
 module.exports = {
-entry: './src/index.tsx',
+  entry: './pages/index.tsx',
   resolve: {
-  extensions: ['.ts', '.tsx', '.js']
+    extensions: ['.ts', '.tsx', '.js']
   },
   module: {
     rules: [
       {
-       test: /\.tsx?$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
         use: {
-         loader: "ts-loader"
+          loader: "ts-loader"
         }
+      }
+    ]
+  }
 };

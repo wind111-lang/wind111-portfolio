@@ -7,23 +7,34 @@
       "es6"
     ],
     "allowSyntheticDefaultImports": true,
-    "module": "es6",
-    "moduleResolution":"node",
+    "module": "esnext",
+    "moduleResolution": "node",
     "sourceMap": true,
     "noImplicitAny": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "outDir": "./dist/",
-    "rootDir":"./src",
-    "typeRoots":[
-    "node_modules/@types",
-    "types"
+    "rootDir": "./pages",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
     ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "include": [
-    "src/**/*",
-    "types/**/*"
+    "pages/**/*",
+    "types/**/*",
+    "**/*.ts",
+    "**/*.tsx"
   ],
-  "exclude":[
-  "node_modules"
+  "exclude": [
+    "node_modules"
   ]
 }
